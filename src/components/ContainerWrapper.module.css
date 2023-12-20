@@ -1,0 +1,79 @@
+.frameChild,
+.frameChild1,
+.frameInner,
+.frameItem,
+.groupIcon {
+  position: absolute;
+  top: 0;
+  left: 168px;
+  width: 188.9px;
+  height: 58.5px;
+  object-fit: cover;
+}
+.frameChild1,
+.frameInner,
+.frameItem,
+.groupIcon {
+  left: 1218px;
+  width: 167.2px;
+}
+.frameChild1,
+.frameInner,
+.groupIcon {
+  left: 1032px;
+  width: 143.8px;
+}
+.frameChild1,
+.groupIcon {
+  left: 603px;
+  width: 163.8px;
+}
+.frameChild1 {
+  left: 399px;
+  width: 153.8px;
+}
+.aaveLogoIcon {
+  position: relative;
+  width: 123.7px;
+  height: 43.5px;
+  object-fit: cover;
+}
+.aaveLogoWrapper {
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 123.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aaveLogoWrapper,
+.frame,
+.frameChild2 {
+  position: absolute;
+  height: 58.5px;
+}
+.frameChild2 {
+  top: 0;
+  left: 801px;
+  width: 188.9px;
+  object-fit: cover;
+}
+.frame {
+  top: 2082px;
+  left: 431px;
+  width: 1385.2px;
+  overflow: hidden;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Responsive styles for mobile devices with a viewport size of 684 x 520 */
+@media only screen and (max-width: 684px) {
+  .container {
+    width: 100%;
+  }
+}

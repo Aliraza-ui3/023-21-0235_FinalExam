@@ -1,0 +1,222 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 59.6px;
+  width: 1182.5px;
+  height: 1285.8px;
+  object-fit: contain;
+}
+.frameItem {
+  top: 24px;
+  left: 0;
+  width: 1231.2px;
+  height: 1247.5px;
+}
+.canBeChanged {
+  margin: 0;
+}
+.buildingBetterWorkContainer {
+  position: relative;
+  letter-spacing: -2.4px;
+  line-height: 74px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 465px;
+  height: 460px;
+  flex-shrink: 0;
+}
+.emailMarketing,
+.emailMarketing1,
+.emailMarketing2,
+.emailMarketing3,
+.emailMarketing4,
+.emailMarketing5 {
+  position: absolute;
+  width: 79.83%;
+  top: calc(50% - 125px);
+  left: 20.17%;
+  letter-spacing: -0.55px;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+}
+.emailMarketing1,
+.emailMarketing2,
+.emailMarketing3,
+.emailMarketing4,
+.emailMarketing5 {
+  width: 10.36%;
+  left: 0;
+  font-weight: 600;
+  color: var(--color-deepskyblue);
+}
+.emailMarketing2,
+.emailMarketing3,
+.emailMarketing4,
+.emailMarketing5 {
+  width: 11.76%;
+  top: calc(50% - 70px);
+}
+.emailMarketing3,
+.emailMarketing4,
+.emailMarketing5 {
+  top: calc(50% - 15px);
+}
+.emailMarketing4,
+.emailMarketing5 {
+  width: 12.89%;
+  top: calc(50% + 40px);
+}
+.emailMarketing5 {
+  width: 11.76%;
+  top: calc(50% + 95px);
+}
+.emailMarketing6,
+.emailMarketing7,
+.emailMarketing8,
+.emailMarketing9 {
+  position: absolute;
+  width: 79.83%;
+  top: calc(50% - 70px);
+  left: 20.17%;
+  letter-spacing: -0.55px;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+}
+.emailMarketing7,
+.emailMarketing8,
+.emailMarketing9 {
+  top: calc(50% - 15px);
+}
+.emailMarketing8,
+.emailMarketing9 {
+  top: calc(50% + 40px);
+}
+.emailMarketing9 {
+  top: calc(50% + 95px);
+}
+.emailMarketingParent {
+  position: relative;
+  width: 357px;
+  height: 250px;
+}
+.buttonText {
+  position: relative;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  display: inline-block;
+  width: 182.7px;
+  margin-top: -34px;
+}
+.elementsButtonsOutlineParent {
+  width: 182.7px;
+  height: 49.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--label-02-size);
+  color: var(--color-whitesmoke-100);
+}
+.buildingBetterWorkParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 357px;
+  height: 344.8px;
+  gap: var(--gap-26xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkgray);
+}
+.buildingBetterWorkParent {
+  position: absolute;
+  top: 232px;
+  left: 1183.6px;
+  width: 465px;
+  height: 846.8px;
+  gap: var(--gap-23xl);
+}
+.frameInner {
+  position: absolute;
+  top: 193px;
+  left: 238.6px;
+  width: 855px;
+  height: 925px;
+  object-fit: cover;
+}
+.frameChild1,
+.frameChild2,
+.rectangleIcon {
+  position: absolute;
+  top: 371px;
+  left: 341.6px;
+  border-radius: var(--br-9xs);
+  width: 276px;
+  height: 162px;
+  object-fit: cover;
+}
+.frameChild1,
+.frameChild2 {
+  top: 349px;
+  left: 703.6px;
+}
+.frameChild2 {
+  top: 741px;
+}
+.buttonText1 {
+  position: relative;
+  letter-spacing: -0.29px;
+  font-weight: 600;
+}
+.iconColor {
+  position: relative;
+  width: 10.4px;
+  height: 8.8px;
+  object-fit: cover;
+}
+.buttonTextParent {
+  width: 81.4px;
+  height: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.frameWrapper {
+  position: absolute;
+  height: 2.96%;
+  width: 8.55%;
+  top: 47.67%;
+  right: 70.73%;
+  bottom: 49.36%;
+  left: 20.72%;
+  border-radius: 5.83px;
+  background-color: var(--color-darkslateblue-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  font-size: var(--font-size-xs-7);
+  color: var(--white);
+}
+.groupParent {
+  position: absolute;
+  top: 1167px;
+  left: 0;
+  width: 1648.6px;
+  height: 1285.8px;
+  text-align: left;
+  font-size: var(--font-size-46xl);
+  color: var(--color-gray-400);
+  font-family: var(--label-01);
+}

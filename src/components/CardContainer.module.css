@@ -1,0 +1,121 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Responsive styles for mobile devices with a viewport size of 684 x 520 */
+@media only screen and (max-width: 684px) {
+  .container {
+    width: 100%;
+  }
+}
+.creativeWaysTo {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.55px;
+  line-height: 36px;
+  font-weight: 600;
+  display: inline-block;
+}
+.createScreensDirectly {
+  margin: 0;
+}
+.createScreensDirectlyContainer {
+  position: absolute;
+  top: 122px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.2px;
+  line-height: 26px;
+  color: var(--color-gray-100);
+  display: inline-block;
+  width: 364px;
+}
+.text {
+  position: absolute;
+  top: 356.7px;
+  left: 30px;
+  width: 350px;
+  height: 164px;
+}
+.product {
+  letter-spacing: -0.4px;
+  line-height: 20px;
+  display: inline-block;
+  width: 50px;
+  flex-shrink: 0;
+}
+.minRead,
+.product,
+.tagTextChild {
+  position: relative;
+  opacity: 0.5;
+}
+.tagTextChild {
+  border-radius: 50%;
+  background-color: var(--paragraph);
+  width: 4px;
+  height: 4px;
+}
+.minRead {
+  letter-spacing: -0.4px;
+  line-height: 20px;
+  display: inline-block;
+  width: 75px;
+  flex-shrink: 0;
+}
+.tagText {
+  position: absolute;
+  top: 327.1px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: var(--paragraph-04-size);
+  color: var(--paragraph);
+}
+.article {
+  position: relative;
+  width: 432px;
+  height: 520.7px;
+}
+.articleParent,
+.baseIcon {
+  border-radius: var(--br-5xs);
+}
+.baseIcon {
+  position: relative;
+  width: 432px;
+  height: 311px;
+  object-fit: cover;
+  margin-top: -520px;
+}
+.articleParent {
+  flex: 1;
+  background-color: var(--white);
+  height: 559px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 38.01953125px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--dark);
+  font-family: var(--label-01);
+}
+@media screen and (max-width: 960px) {
+  .articleParent {
+    height: 550px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .articleParent {
+    height: 550px;
+  }
+}

@@ -1,0 +1,195 @@
+.createScreensDirec {
+  position: absolute;
+  height: 21.43%;
+  width: 35.26%;
+  top: 27.72%;
+  left: 0;
+  letter-spacing: -0.3px;
+  line-height: 40px;
+  font-weight: 500;
+  color: var(--color-darkgray);
+  display: inline-block;
+}
+.frequentlyAskedQuestions {
+  position: absolute;
+  height: 27.04%;
+  width: 36.42%;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-46xl);
+  letter-spacing: -2.4px;
+  line-height: 74px;
+  font-weight: 600;
+  display: inline-block;
+}
+.iconsPlus {
+  position: absolute;
+  height: 21.62%;
+  width: 2.16%;
+  top: 40.54%;
+  right: 2.34%;
+  bottom: 37.84%;
+  left: 95.49%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.divider {
+  position: absolute;
+  width: 100%;
+  top: 110px;
+  right: 0;
+  left: 0;
+  background-color: var(--neutral);
+  height: 1px;
+}
+.whatIsWeb3makr {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 523px;
+}
+.divider1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--neutral);
+  height: 1px;
+}
+.div {
+  position: relative;
+  width: 819px;
+  height: 111px;
+}
+.web3makrProvidesA {
+  margin: 0;
+}
+.createScreensDirecContainer {
+  position: absolute;
+  height: 72.87%;
+  width: 62.64%;
+  top: 27.13%;
+  left: 0.1%;
+  letter-spacing: -0.2px;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+}
+.iconsRemove {
+  position: absolute;
+  height: 58.54%;
+  width: 2.21%;
+  top: 41.46%;
+  right: 0;
+  bottom: 0;
+  left: 97.79%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame1,
+.whyShouldI {
+  position: absolute;
+  left: 0;
+}
+.whyShouldI {
+  top: 0;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 384.8px;
+}
+.frame1 {
+  top: 41px;
+  width: 799.8px;
+  height: 41px;
+  overflow: hidden;
+  color: var(--color-gray-400);
+}
+.div1,
+.divider3 {
+  position: relative;
+  width: 819px;
+}
+.div1 {
+  height: 328px;
+  color: var(--color-darkgray);
+}
+.divider3 {
+  background-color: var(--neutral);
+  height: 1px;
+}
+.whatIsWeb3makr1 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 523px;
+  flex-shrink: 0;
+}
+.iconsPlus1 {
+  position: relative;
+  width: 17.7px;
+  height: 24px;
+  object-fit: cover;
+}
+.div2,
+.frame2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame2 {
+  width: 798.8px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-239xl);
+}
+.div2 {
+  width: 819px;
+  height: 110px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+}
+.frame,
+.parent {
+  position: absolute;
+  height: 588px;
+}
+.parent {
+  top: 0;
+  left: 565px;
+  width: 819px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-xl);
+}
+.frame {
+  top: 7382px;
+  left: 431px;
+  width: 1384px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-400);
+  font-family: var(--label-01);
+}

@@ -1,0 +1,29 @@
+.base {
+  position: relative;
+  border-radius: 5.83px;
+  width: 276.2px;
+  height: 150.5px;
+  margin-top: -254px;
+}
+.elementsWidgetsWidget04Parent {
+  position: absolute;
+  top: 223px;
+  left: 675.2px;
+  width: 333.4px;
+  height: 381px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Responsive styles for mobile devices with a viewport size of 684 x 520 */
+@media only screen and (max-width: 684px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,221 @@
+.background {
+  background-color: var(--base-01);
+}
+.background,
+.background1,
+.maskGroupIcon {
+  position: absolute;
+  height: 87.73%;
+  width: 85.58%;
+  top: 12.27%;
+  right: 14.42%;
+  bottom: 0;
+  left: 0;
+}
+.background1 {
+  background: linear-gradient(
+    180deg,
+    #000 35.03%,
+    rgba(0, 0, 0, 0.65) 43.24%,
+    rgba(16, 115, 152, 0.6) 68.28%,
+    #18ade4
+  );
+}
+.maskGroupIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ourBlog {
+  position: absolute;
+  height: 7.89%;
+  width: 13.26%;
+  top: 0;
+  left: 8.87%;
+  letter-spacing: -2.4px;
+  line-height: 62px;
+  font-weight: 600;
+  display: inline-block;
+}
+.analyticsFeatures {
+  margin: 0;
+}
+.analyticsFeaturesToContainer {
+  position: absolute;
+  width: calc(100% + 33px);
+  top: 0;
+  left: 0;
+  letter-spacing: -0.55px;
+  line-height: 36px;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.text {
+  position: absolute;
+  top: 356.7px;
+  left: 30px;
+  width: 350px;
+  height: 116px;
+}
+.design {
+  letter-spacing: -0.4px;
+  line-height: 20px;
+  display: inline-block;
+  width: 44px;
+  flex-shrink: 0;
+}
+.design,
+.minRead,
+.tagTextChild {
+  position: relative;
+  opacity: 0.5;
+}
+.tagTextChild {
+  border-radius: 50%;
+  background-color: var(--paragraph);
+  width: 4px;
+  height: 4px;
+}
+.minRead {
+  letter-spacing: -0.4px;
+  line-height: 20px;
+  display: inline-block;
+  width: 68px;
+  flex-shrink: 0;
+}
+.tagText {
+  position: absolute;
+  top: 327.1px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  font-size: var(--paragraph-04-size);
+  color: var(--paragraph);
+}
+.article {
+  position: relative;
+  width: 432px;
+  height: 472.7px;
+}
+.articleParent,
+.baseIcon {
+  border-radius: var(--br-5xs);
+}
+.baseIcon {
+  position: relative;
+  width: 432px;
+  height: 311px;
+  object-fit: cover;
+  margin-top: -472px;
+}
+.articleParent {
+  flex: 1;
+  background-color: var(--white);
+  height: 559px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) 86.01953125px;
+  box-sizing: border-box;
+}
+.theDesignSide {
+  position: relative;
+  letter-spacing: -0.55px;
+  line-height: 38px;
+  font-weight: 600;
+  display: inline-block;
+  width: 350px;
+}
+.text1 {
+  position: absolute;
+  top: 356.7px;
+  left: 30px;
+  width: 350px;
+  height: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.01953125px var(--padding-0);
+  box-sizing: border-box;
+}
+.marketing {
+  position: relative;
+  letter-spacing: -0.4px;
+  line-height: 20px;
+  display: inline-block;
+  width: 64px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.baseIcon1 {
+  position: relative;
+  border-radius: var(--br-5xs);
+  width: 431.9px;
+  height: 311px;
+  object-fit: cover;
+  margin-top: -472px;
+}
+.frameGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1840.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  font-size: var(--font-size-13xl);
+  color: var(--dark);
+}
+.createScreensDirectlyContainer,
+.createScreensDirectlyContainer1 {
+  position: absolute;
+  top: 479px;
+  left: 968px;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+  display: inline-block;
+  width: 369px;
+}
+.createScreensDirectlyContainer1 {
+  left: 499px;
+}
+.frameParent {
+  position: absolute;
+  top: 265px;
+  left: 179px;
+  width: 1840.1px;
+  height: 559px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.backgroundParent {
+  position: absolute;
+  top: 8124px;
+  left: 260px;
+  width: 2019.1px;
+  height: 970px;
+  text-align: left;
+  font-size: var(--display-02-size);
+  color: var(--dark);
+  font-family: var(--label-01);
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Responsive styles for mobile devices with a viewport size of 684 x 520 */
+@media only screen and (max-width: 684px) {
+  .container {
+    width: 100%;
+  }
+}
